@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=New+Amsterdam&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+}
+#header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-family: "New Amsterdam", sans-serif;
+}
+#footer-contaniner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+    color: chartreuse;
+    font-family: "New Amsterdam", sans-serif;
+    background-color: chartreuse;
+
+}
+#footer-container-social{
+    text-decoration: blue;
+    color: rgb(111, 0, 255);
+
+}
+
+#footer-container-social{
+    margin-bottom: 10px;
+}
+
+#serce-contanier{
+    margin-left: 30px;
+    margin-right: 35px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px; 
+  }
+  
+
+  .form-control {
+    width: 400px; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  #image-user {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #previewImage {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+  }
+  
+  #text-upload-Image {
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .form-control input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .form-control label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  
+  #select-course {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+  }
+  
+  
+  #button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #button:hover {
+    background-color: #0069d9;
+  }

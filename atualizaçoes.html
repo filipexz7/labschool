@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>labschool - Atualização de Matrícula</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header id="header-container">
+        <h1>labschool</h1>
+        <a href="index.html">
+            <button id="button-page-init" class="btn btn-light">Página inicial</button>
+        </a>
+    </header>
+    
+    <main id="container" class="f-flex align-items-center">
+        <form action="update-student" class="form-control" method="post">
+            <div>
+                <label for="inputStudentId">
+                    ID do Aluno
+                </label>
+                <input type="text" class="form-control" id="inputStudentId" name="studentId" required>
+            </div>
+            
+            <div id="image-user">
+                <img src="img/images (1).jfif" alt="" id="previewImage">
+                <label for="uploadImage" id="text-upload-Image">
+                    Foto do estudante
+                </label>
+                <input id="uploadImage" class="form-control" type="file" accept="image/*" name="studentImage">
+            </div>
+            
+            <div>
+                <label for="inputName">
+                    Nome completo
+                </label>
+                <input type="text" class="form-control" id="inputName" name="fullName" required>
+            </div>
+
+            <div>
+                <label for="inputE-mail">
+                    E-mail
+                </label>
+                <input type="email" class="form-control" id="inputE-mail" name="email" required>
+            </div>
+            
+            <div>
+                <label for="inputTelefone">
+                    Telefone
+                </label>
+                <input type="tel" class="form-control" id="inputTelefone" name="phone" required>
+            </div>
+
+            <div>
+                <label for="inputDateOfBirth">
+                    Data de Nascimento
+                </label>
+                <input type="date" class="form-control" id="inputDateOfBirth" name="dateOfBirth" required>
+            </div>
+
+            <div>
+                <label for="select-course">
+                    Curso
+                </label> 
+                <select name="course" id="select-course" class="form-control">
+                </select>
+            </div>
+
+            <div class="dgray">
+                <button type="submit" id="button" class="btn btn-primary">Atualizar</button>
+            </div>
+        </form>
+    </main>
+
+    <footer id="footer-container">
+        Desenvolvido por tree Tecnologia. Todos os direitos reservados
+        <div id="footer-container-social">
+          <a href="https://www.facebook.com/">Facebook</a> |
+          <a href="https://www.linkedin.com/">LinkedIn</a>
+        </div>
+      </footer>
+
+</body>
+</html>
